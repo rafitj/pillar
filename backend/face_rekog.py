@@ -5,8 +5,6 @@ import boto3
 import json
 from flask import jsonify
 
-aws_access_key_id = 'AKIAJ5DU42PGNQXHXJGA'
-aws_secret_access_key = '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'
 region = 'us-east-1'
 
 rekog_client = boto3.client(service_name='rekognition',
