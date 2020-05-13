@@ -9,9 +9,6 @@ headers = {
     'accept': "application/json"
 }
 
-
-aws_access_key_id = 'AKIAJ5DU42PGNQXHXJGA'
-aws_secret_access_key = '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'
 region = 'us-east-1'
 
 aws_medclient = boto3.client(service_name='comprehendmedical',
